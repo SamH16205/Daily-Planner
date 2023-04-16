@@ -5,8 +5,6 @@
 var timeBlocks = $(".row")
 var currentHour = dayjs().format('H')
 var saveButtons = $('.saveBtn')
-console.log(currentHour)
-
 $(function () {
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
